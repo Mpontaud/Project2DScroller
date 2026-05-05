@@ -14,7 +14,7 @@ public class LoadSpecificScene : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D colision)
     {
-        if(colision.CompareTag("Player"));
+        if(colision.CompareTag("Player"))
         {
             StartCoroutine(loadNextScene());
         }
