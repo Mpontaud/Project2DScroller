@@ -10,7 +10,7 @@ public class Inventory : MonoBehaviour
     
     private void Awake()
     {
-        if (instance != null)
+        if(instance != null)
         {
             Debug.LogWarning("Il y a plus d'une instance de Inventory dans la scène");
             return;
@@ -22,6 +22,17 @@ public class Inventory : MonoBehaviour
     public void AddCoins(int count)
     {
         coinsCount += count;
-		coinsCountText.text = coinsCount.ToString();
+		UpdateTextUI();
     }
+
+	public void RemoveCoins(int count)
+	{
+		coinsCount -= count;
+		UpdateTextUI();
+	}
+
+	public void UpdateTextUI()
+	{
+		coinsCountText.text = coinsCount.ToString();
+	}
 }

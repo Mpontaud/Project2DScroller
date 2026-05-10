@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1501261386372016958}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.045, y: -0.699, z: 0}
+  m_LocalPosition: {x: 0, y: -1.036, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -140,8 +140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f3c2acf5bfbe4846961eaf6c0f6f09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  moveSpeed: 250
+  moveSpeed: 5
   jumpForce: 300
+  isClimbing: 0
   groundCheck: {fileID: 6854556299866104899}
   groundCheckRadius: 0.4
   collisionLayers:
@@ -150,6 +151,7 @@ MonoBehaviour:
   rb: {fileID: 5979035110625862237}
   animator: {fileID: 5121266460954575698}
   spriteRenderer: {fileID: 982171997523302929}
+  playerCollider: {fileID: 1361645863995020271}
 --- !u!50 &5979035110625862237
 Rigidbody2D:
   serializedVersion: 5
@@ -218,6 +220,7 @@ MonoBehaviour:
   isInvincible: 0
   graphics: {fileID: 982171997523302929}
   healthBar: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: 76f1a10fdfe129745938f96b3a2f9b01, type: 3}
 --- !u!70 &1361645863995020271
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

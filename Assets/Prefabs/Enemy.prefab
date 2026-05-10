@@ -188,6 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   objectToDestroy: {fileID: 4988919143575325179}
+  killSound: {fileID: 8300000, guid: ff4ad59537bce904e832d3bc0b8a2129, type: 3}
 --- !u!1 &9092548144958361010
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +218,7 @@ Transform:
   m_GameObject: {fileID: 9092548144958361010}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.47, y: -0.42, z: 0}
+  m_LocalPosition: {x: -2.47, y: -0.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -271,7 +272,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: -4365678376696325385, guid: 9aa636437426bc7498b03f89767210cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -345,7 +346,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 7111457735368810644}
   - {fileID: 3278631502894257375}
-  damageOnCollision: 20
+  damageOnCollision: 100
   graphics: {fileID: 1679211906780369363}
 --- !u!95 &2588725357185865266
 Animator:
