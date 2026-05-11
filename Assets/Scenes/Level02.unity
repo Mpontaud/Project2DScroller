@@ -186,6 +186,18 @@ PrefabInstance:
       propertyPath: gameOverUI
       value: 
       objectReference: {fileID: 2103207336}
+    - target: {fileID: 4303168888671529833, guid: 96b07ff82c7fe8047bbae238f21317c8, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 626998922}
+    - target: {fileID: 4303168888671529833, guid: 96b07ff82c7fe8047bbae238f21317c8, type: 3}
+      propertyPath: nameText
+      value: 
+      objectReference: {fileID: 626998921}
+    - target: {fileID: 4303168888671529833, guid: 96b07ff82c7fe8047bbae238f21317c8, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 626998920}
     - target: {fileID: 4778145748127768719, guid: 96b07ff82c7fe8047bbae238f21317c8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.21
@@ -255,6 +267,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3837dd6978649164cb36bcbe2237a9b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+--- !u!114 &88713885 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4303168888671529833, guid: 96b07ff82c7fe8047bbae238f21317c8, type: 3}
+  m_PrefabInstance: {fileID: 88713882}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a25a05ea7c815e54db9f85ff81f4d341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
 --- !u!1001 &229926771
@@ -436,6 +459,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0e030f5be9edcc48b4e69283844c1e0, type: 3}
+--- !u!114 &626998920 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2296807836267780088, guid: f37cd9a62e6513841b9114443199d693, type: 3}
+  m_PrefabInstance: {fileID: 2103207334}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
+--- !u!114 &626998921 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4482781086651234943, guid: f37cd9a62e6513841b9114443199d693, type: 3}
+  m_PrefabInstance: {fileID: 2103207334}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
+--- !u!95 &626998922 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9107861204502627982, guid: f37cd9a62e6513841b9114443199d693, type: 3}
+  m_PrefabInstance: {fileID: 2103207334}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &724604811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2872,11 +2922,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2850925416361481993, guid: f0e030f5be9edcc48b4e69283844c1e0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.37
+      value: -0.91
       objectReference: {fileID: 0}
     - target: {fileID: 2850925416361481993, guid: f0e030f5be9edcc48b4e69283844c1e0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.19
+      value: -2.14
       objectReference: {fileID: 0}
     - target: {fileID: 2850925416361481993, guid: f0e030f5be9edcc48b4e69283844c1e0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7897,6 +7947,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 88713883}
+    - target: {fileID: 8735437307727935250, guid: f37cd9a62e6513841b9114443199d693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 88713885}
+    - target: {fileID: 8735437307727935250, guid: f37cd9a62e6513841b9114443199d693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DisplayNextSentence
+      objectReference: {fileID: 0}
     - target: {fileID: 8964865733432991043, guid: f37cd9a62e6513841b9114443199d693, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
