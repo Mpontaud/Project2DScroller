@@ -8419,7 +8419,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: b9931a5321e225e4db3e9ecb686d612e, type: 2}
   - serializedVersion: 2
     m_RefCount: 0
-    m_Data: {fileID: 11400000, guid: 90309d8345b14f04e944c6c26dfd3785, type: 2}
+    m_Data: {fileID: 11400000, guid: 707def26e7161834b9c0806c9b908f5e, type: 2}
   - serializedVersion: 2
     m_RefCount: 13
     m_Data: {fileID: 11400000, guid: 09f5d75ef73909243882fb108e459b1a, type: 2}
@@ -8480,7 +8480,7 @@ Tilemap:
     m_Data: {fileID: 656925600, guid: 18ee4f4fac6faab4b8123ef3ac689177, type: 3}
   - serializedVersion: 2
     m_RefCount: 0
-    m_Data: {fileID: -285291254, guid: 18ee4f4fac6faab4b8123ef3ac689177, type: 3}
+    m_Data: {fileID: 699576480, guid: 18ee4f4fac6faab4b8123ef3ac689177, type: 3}
   - serializedVersion: 2
     m_RefCount: 13
     m_Data: {fileID: -145398467, guid: 18ee4f4fac6faab4b8123ef3ac689177, type: 3}
@@ -8523,8 +8523,8 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -13, y: -9, z: 0}
-  m_Size: {x: 55, y: 19, z: 1}
+  m_Origin: {x: -13, y: -10, z: 0}
+  m_Size: {x: 55, y: 20, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -10326,7 +10326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7265424938413049536, guid: 9306e17a8a004d64e81b7a732509b16d, type: 3}
       propertyPath: moveSpeed
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8201782788576670224, guid: 9306e17a8a004d64e81b7a732509b16d, type: 3}
       propertyPath: healthBar
