@@ -62,8 +62,8 @@ public class PlayerMovement : MonoBehaviour
     {
 		if (!isClimbing)
 		{
-			Vector3 targetVelocity = new Vector2(_horizontalMovement, rb.velocity.y);
-        	rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, 0.05f);
+			Vector3 targetVelocity = new Vector2(_horizontalMovement, rb.linearVelocity.y);
+        	rb.linearVelocity = Vector3.SmoothDamp(rb.linearVelocity, targetVelocity, ref velocity, 0.05f);
 
         	if (isJumping)
         	{
@@ -74,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
 		else
 		{
 			Vector3 targetVelocity = new Vector2(0, _verticalMovement);
-        	rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, 0.05f);
+        	rb.linearVelocity = Vector3.SmoothDamp(rb.linearVelocity, targetVelocity, ref velocity, 0.05f);
 		}
     }
 
