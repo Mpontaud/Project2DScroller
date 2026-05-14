@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f17269a1bfdd4046b144655b0086d85, type: 3}
-  m_Name: SpeedPotion
+  m_Name: HealthPotion
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  id: 2
-  name: Speed Potion
-  description: Potion incresing speed by 50 units
-  image: {fileID: 21300000, guid: 3a30230aaa1844c4b8b8f4f4b907dccf, type: 3}
-  hpGiven: 0
-  speedGiven: 5
-  speedDuration: 10
+  id: 1
+  name: Health Potion
+  description: A potion restoring 20 hp
+  price: 5
+  image: {fileID: 21300000, guid: 9bde651a230f7ab4397e93a2842ed64f, type: 3}
+  hpGiven: 20
+  speedGiven: 0
+  speedDuration: 0

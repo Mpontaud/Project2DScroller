@@ -346,7 +346,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 7111457735368810644}
   - {fileID: 3278631502894257375}
-  damageOnCollision: 100
+  damageOnCollision: 40
   graphics: {fileID: 1679211906780369363}
 --- !u!95 &2588725357185865266
 Animator:

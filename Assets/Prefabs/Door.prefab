@@ -152,4 +152,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   sceneName: Level02
-  fadeSystem: {fileID: 0}
